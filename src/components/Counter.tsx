@@ -19,4 +19,5 @@ export const Counter = () => {
       <button onClick={decrement}>decrement</button>
     </div>
   );
-};
+}
+// 123
