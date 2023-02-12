@@ -8,6 +8,7 @@ export const buildPlugins = ({
   return [
     new HtmlWebpackPlugin({
       template: paths.html,
+      title: 'Development',
     }),
     new webpack.ProgressPlugin(),
   ];
